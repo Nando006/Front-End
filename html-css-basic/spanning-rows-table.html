@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spanning Rows in a Table</title>
+    <style>
+      table {
+        width: 50%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Team Members</h1>
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Responsabilidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">Carlos</td>
+          <td>Desenvolvimento Backend</td>
+        </tr>
+
+        <tr>
+          <td>Banco de Dados</td>
+        </tr>
+
+        <tr>
+          <td>API REST</td>
+        </tr>
+
+        <tr>
+          <td>Mariana</td>
+          <td>Desenvolvimento Frontend</td>
+        </tr>
+
+        <tr>
+          <td>João</td>
+          <td>UI/UX Designer</td>
+        </tr>
+
+        <tr>
+          <td>Ana</td>
+          <td>Gerente de Projeto</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
